@@ -11,6 +11,6 @@
 void initializeSerial();
 unsigned char serialReadByte();
 void serialWriteByte(unsigned char byteToSend);
-void serialWriteString(unsigned char string[]);
+void serialWriteString(char string[]);
 
 #endif /* SERIAL_H_ */

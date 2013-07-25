@@ -34,7 +34,7 @@ void serialWriteByte(unsigned char byteToSend)
  * inputs: string[]	-	The array of characters to write
  * Note: the string must be null-terminated
  */
-void serialWriteString(unsigned char string[])
+void serialWriteString(char string[])
 {
 	int i = 0;
 	while (string[i])
